@@ -1,0 +1,11 @@
+namespaces_secrets:
+  - namespace: namespace400
+    secrets:
+      - secret22222
+      - secret33333
+
+  - namespace: namespace5001
+    secrets:
+      - secret111
+      - secret222
+      - secret33333
