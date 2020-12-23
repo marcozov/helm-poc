@@ -1,0 +1,16 @@
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: {{ .Values.appName }}-vs
+  namespace: {{ .Values.namespace }}
+spec:
+  gateways:
+    - osdp-wildcard-gw.istio-system.svc.cluster.local
+  hosts:
+    - {{ .Values.appName }}.{{ .Values.domain }}
+  http:
+    - route:
+        - destination:
+            host: {{ .Values.appName }}
+            port:
+              number: {{ .Values.service.port }}

@@ -1,0 +1,6 @@
+namespace: "default"
+appName: "nginx"
+service:
+  port: 80
+
+domain: ""

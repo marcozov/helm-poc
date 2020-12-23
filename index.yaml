@@ -3,12 +3,22 @@ entries:
   helm-chart-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-12-22T18:03:41.595256+01:00"
+    created: "2020-12-23T15:12:22.966558+01:00"
     description: A Helm chart for Kubernetes
-    digest: 2a694cb65545bff8ca216a94bd6e9f712efd9d6195137b23a10a97fba9dacb11
+    digest: 62a1bbc1d93b0f8432f1d279b930a59e6fa03c91904a3b36ad10e89083abb221
     name: helm-chart-test
     type: application
     urls:
     - https://marcozov.github.io/helm-poc/helm-chart-test-0.1.0.tgz
     version: 0.1.0
-generated: "2020-12-22T18:03:41.594427+01:00"
+  nginx-sample:
+  - apiVersion: v2
+    created: "2020-12-23T15:12:22.966792+01:00"
+    description: A Helm chart to setup a basic nginx instance
+    digest: afb66c7da548853a3d407b7079ff59bcb2b12738f8322e681857785992536233
+    name: nginx-sample
+    type: application
+    urls:
+    - https://marcozov.github.io/helm-poc/nginx-sample-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-12-23T15:12:22.963444+01:00"
